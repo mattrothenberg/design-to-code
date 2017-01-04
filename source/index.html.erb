@@ -1,0 +1,12 @@
+---
+title: Welcome to Middleman
+---
+
+<% data.tweets.each do |tweet| %>
+  <%= partial(:card, :locals => {
+    :name => tweet.name,
+    :avatar => tweet.avatar,
+    :tweet => tweet.tweet,
+    :hashtags => tweet.hashtags })
+  %>
+<% end %>

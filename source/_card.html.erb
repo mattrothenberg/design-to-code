@@ -1,0 +1,23 @@
+<div class="card sm-col-8 md-col-7 lg-col-6 col-11 mx-auto border border-silver bg-white mb2">
+  <div class="card-body p2">
+    <div class="media-object clearfix">
+      <div class="avatar left mr2">
+        <img src="<%= avatar %>" alt="">
+      </div>
+      <div class="tweet overflow-hidden">
+        <h1 class="m0"><%= name %></h1>
+        <p class="h3 mt1 mb0"><%= tweet %></p>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer p2 flex items-center justify-between border-top border-silver">
+    <ul class="inline-list list-reset m0 gray">
+      <% hashtags.each do |hashtag| %>
+        <li class="inline-block mr1"><%= hashtag %></li>
+      <% end %>
+    </ul>
+    <button class="bg-white border-none gray">
+      <i class="material-icons">favorite_border</i>
+    </button>
+  </div>
+</div>

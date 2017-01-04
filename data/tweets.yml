@@ -1,0 +1,19 @@
+- name: '@kittycat'
+  avatar: http://placekitten.com/g/80/80
+  tweet: You call this cat food? lick the curtain just to be annoying. Run in circles. Purr while eating a nice warm laptop for me to sit on so kitten is playing with a dead mouse
+  hashtags:
+    - '#catnip'
+    - '#kitties'
+    - '#mouse'
+- name: '@scottishfold'
+  avatar: http://placekitten.com/g/80/80
+  tweet: Flop over. This human feeds me, i should be a god white cat sleeps on a black shirt but asdflkjaertvlkjasntvkjn (sits on keyboard)
+  hashtags:
+    - '#meow'
+    - '#computers'
+- name: '@sirpointyears'
+  avatar: http://placekitten.com/g/80/80
+  tweet: Purr for no reason see owner, run in terror for friends are not food toy mouse squeak roll over. Cough furball run in circles
+  hashtags:
+    - '#notatiger'
+    - '#fuzzymcfuzz'
